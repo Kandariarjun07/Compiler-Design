@@ -1,0 +1,5 @@
+Lex is a program    that generates lexical analyzer. 
+It is used with YACC parser   generator. 
+The lexical   analyzer   is a program that 
+transforms an  input stream into  a 
+sequence of tokens. 

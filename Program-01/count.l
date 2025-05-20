@@ -14,6 +14,7 @@ int lines = 0, spaces=0, tabs = 0, others = 0;
 int yywrap() {
     return 1;
 }
+
 int main() {
     printf("Enter Sentence : ");
     yylex();

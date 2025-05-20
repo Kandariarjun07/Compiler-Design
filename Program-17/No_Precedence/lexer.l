@@ -13,6 +13,7 @@
 [\n]        { return 0; /* End of input */ }
 .           { printf("Invalid character: %s\n", yytext); return 0; }
 %%
+
 int yywrap() {
     return 1;
 }

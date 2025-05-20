@@ -19,7 +19,7 @@
 <B>a                     BEGIN A; 
 <B>b                     BEGIN B; 
 <B>[^ab\n]               BEGIN DEAD; 
-<B>\n                    { printf("String Accepted\n"); BEGIN INITIAL; } 
+<B>\n                    { printf("String Accepted \n"); BEGIN INITIAL; } 
 
 <DEAD>[^\n]              BEGIN DEAD; 
 <DEAD>\n                 { printf("String not accepted\n"); BEGIN INITIAL; } 

@@ -12,6 +12,7 @@
 int yywrap() {
     return 1;
 }
+
 int main() {
     printf("Enter identifier : ");
     yylex();

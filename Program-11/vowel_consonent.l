@@ -14,6 +14,7 @@ int vowels = 0, consonents = 0;
 int yywrap() {
     return 1;
 }
+
 int main() {
     printf("Enter String : ");
     yylex();

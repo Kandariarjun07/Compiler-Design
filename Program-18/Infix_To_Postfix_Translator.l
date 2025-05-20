@@ -1,6 +1,6 @@
 %{
-#include "parser.tab.h"
-extern int yylval;
+    #include "parser.tab.h"
+    extern int yylval;
 %}
 
 %%

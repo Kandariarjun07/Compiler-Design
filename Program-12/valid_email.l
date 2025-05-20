@@ -3,7 +3,7 @@
 %} 
 
 %% 
-^[a-zA-Z0-9._%+-]+@gmail\.com$  {
+^[a-zA-Z0-9._%+-]+@gmail\.com$ {
     printf("Valid Email\n");
 } 
 .* {

@@ -31,7 +31,6 @@
 <DEAD>[^\n]              BEGIN DEAD; 
 
 %% 
-
 int main() { 
     yylex(); 
     return 0; 

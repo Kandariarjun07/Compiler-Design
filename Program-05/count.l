@@ -17,6 +17,7 @@ int chars = 0, words=0, whitespaces = 0;
 int yywrap() {
     return 1;
 }
+
 int main() {
     extern FILE* yyin;
     yyin = fopen("input.txt","r");

@@ -2,7 +2,7 @@
     #include <stdio.h> 
 %} 
 
-%option noyywrap
+%option noyywrap 
 %s INT A FLOAT ID DEAD 
 
 %% 
